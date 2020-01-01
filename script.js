@@ -61,7 +61,7 @@ class MixOrMatch {
         return setInterval(() => {
             this.timeRemaining--;
             this.timer.innerText = this.timeRemaining;
-            if(this.timeRemaining === 0)
+            if(this.timeRemaining === 0) //waktu berakhir//
                 this.gameOver();
         }, 1000);
     }
